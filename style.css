@@ -1,0 +1,87 @@
+body{
+    border: 0;
+    margin: 0;
+    background-image: url(background.png);
+}
+
+#cabecalho{
+    background-color: #44312B;
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+}
+
+header img{
+    padding-top: 20px
+}
+
+header input{
+    height: 30px;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+#textoheader{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#textoheader a {
+    text-decoration: none;
+}
+
+#texth1{
+    color: white;
+    font-size: 20px;
+}
+
+#login{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#opcoes{
+    display: grid;
+    grid-template-columns: 332px 332px 332px 332px 332px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.imagem{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.menu{
+    height: 650px;
+    width: 350px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.descricao{
+    margin-top: -20px;
+    text-align: center;
+}
+
+.valor{
+    background-color: white;
+    height: 90px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+.num{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
